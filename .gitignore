@@ -174,7 +174,6 @@ cython_debug/
 Crawl4AI.egg-info/
 Crawl4AI.egg-info/*
 crawler_data.db
-.vscode/
 .tests/
 .test_pads/
 test_pad.py
@@ -258,8 +257,6 @@ continue_config.json
 .continue-downloads/
 
 # Continue VS Code specific
-.vscode-continue/
-.vscode-continue-cache/
 
 .prompts/
 
@@ -311,3 +308,6 @@ out/
 
 # entrypoint.sh is a required deployment artifact (Dockerfile COPYs it)
 !deploy/docker/entrypoint.sh
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
